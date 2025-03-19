@@ -1,8 +1,13 @@
-import { Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
-import { LoginComponent } from './pages/login/login.component';
+import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
 
-export const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'login', component: LoginComponent }
-];
+@Component({
+  selector: 'app-menu',
+  standalone: true, // IMPORTANTE para projetos sem NgModule
+  imports: [RouterModule, MatToolbarModule, MatButtonModule], // Importa RouterModule
+  templateUrl: './menu.component.html',
+  styleUrls: ['./menu.component.css']
+})
+export class MenuComponent {}

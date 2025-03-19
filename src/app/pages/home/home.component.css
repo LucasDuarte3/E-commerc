@@ -1,5 +1,6 @@
 main{
     min-height: 500px;
+    margin-bottom: 20px;
 }
 #carrosel{
     min-height: 400px;
@@ -14,5 +15,10 @@ main{
   .example-header-image {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: auto;
-  }
+ }
+#cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
   
