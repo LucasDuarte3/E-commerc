@@ -1,9 +1,10 @@
 <main>
+  <div class="formulario">
     <div class="form mb-3">
         <label for="InserirEmail" class="form-label">Email</label>
         <input type="email" class="form-control" id="InserirEmail" placeholder="name@example.com">
     </div>
-    <div class="form row g-3 align-items-center">
+    <div class="form align-items-center">
         <div class="col-auto">
           <label for="InserirSenha" class="col-form-label">senha</label>
         </div>
@@ -11,4 +12,10 @@
           <input type="password" id="InserirSenha" class="form-control" aria-describedby="passwordHelpInline">
         </div>
     </div>
+    <div>
+      <button mat-stroked-button color="primary" routerLink="/home">
+        Voltar
+      </button>
+    </div>
+  </div>
 </main>

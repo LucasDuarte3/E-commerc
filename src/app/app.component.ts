@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { MenuComponent } from './component/menu/menu.component';
 import { FooterComponent } from './component/footer/footer.component';
-import { HomeComponent } from './pages/home/home.component';
-import { LoginComponent } from './pages/login/login.component';
 import { RouterOutlet } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
@@ -18,7 +16,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
   standalone: true,
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports: [MenuComponent, FooterComponent, HomeComponent, LoginComponent, RouterOutlet, 
+  imports: [MenuComponent, FooterComponent, RouterOutlet, 
     MatButtonModule,MatCardModule,MatIconModule,MatInputModule,MatMenuModule,MatToolbarModule,
     MatFormFieldModule,MatGridListModule] // ✅ Componentes corretamente importados
 })

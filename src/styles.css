@@ -1,0 +1,20 @@
+/* Faz com que a página ocupe toda a tela */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Garante que o app-root ocupa 100% da tela */
+  app-root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 100% da altura da viewport */
+  }
+  
+  /* Faz com que o conteúdo das rotas ocupe todo o espaço disponível */
+  router-outlet {
+    flex-grow: 1;
+    display: flex;
+  }
+  
