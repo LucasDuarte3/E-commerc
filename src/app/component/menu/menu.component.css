@@ -1,7 +1,13 @@
 .example-spacer {
     flex: 1 1 auto;
-  }
-.Menu{
-  background-color: aqua;
 }
-  
+.Menu{
+  background-color: black;
+  margin-bottom: 5px;
+}
+mat-toolbar button {
+  color: white;
+}
+#app{
+  color: white;
+}

@@ -1,18 +1,26 @@
 main{
     width: 100%;
-    height: 700px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-width: 700px;
+    background-color: azure;
 }
 .formulario{
-    width: 100%;
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    border: 3px solid #ffcc00; /* Define a borda */
+    border-radius: 15px; /* Bordas levemente arredondadas */
+    background-color: white; /* Fundo branco para destacar */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno */
 }
 .login{
     padding: 10px;
@@ -22,4 +30,10 @@ button {
     margin: 20px auto;
     padding: 10px 20px;
     font-size: 16px;
-  }
+}
+.formulario label{
+    font-size: larger;
+}
+.formulario input{
+    width: 300px;
+}

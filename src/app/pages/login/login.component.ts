@@ -11,6 +11,7 @@ export class LoginComponent {
   constructor(private router: Router) {} // 🔹 Injeta o Router
 
   voltarParaHome() {
-    this.router.navigate(['/home']); // 🔹 Redireciona para Home
+    console.log("Navegando para home...");
+    this.router.navigate(['/home']);
   }
 }
